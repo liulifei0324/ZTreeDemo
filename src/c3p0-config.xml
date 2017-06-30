@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+	<default-config> 
+		<property name="jdbcUrl">jdbc:jtds:sqlserver://localhost:1433;databaseName=DBCT_Dev</property>
+		<property name="driverClass">net.sourceforge.jtds.jdbc.Driver</property>
+		<property name="user">sa</property>
+		<property name="password">sasa</property>
+		
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">10</property>
+	</default-config>
+</c3p0-config>
